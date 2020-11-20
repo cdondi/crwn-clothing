@@ -5,6 +5,7 @@ import './App.css';
 import './pages/homepage/homepage.styles.scss';
 
 import HomePage from './pages/homepage/homepage.component';
+import ShopPage from './pages/shop/shop.component.jsx';
 
 const HatsPage = () => (
   <div>
@@ -17,7 +18,7 @@ function App() {
     <div>
       <switch>
         <Route exact path='/' component={HomePage} />
-        <Route path='/hats' component={HatsPage} />
+        <Route path='/shop' component={ShopPage} />
       </switch>
     </div>
   );
