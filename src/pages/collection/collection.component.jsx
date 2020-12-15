@@ -8,8 +8,8 @@ import { selectCollection } from '../../redux/shop/shop.selectors';
 
 import './collection.styles.scss';
 
-const CollectionPage = ( { collection }) => {
-    console.log(collection);
+const CollectionPage = ( { match }) => {
+    console.log(match);
     return (
         <div className='collection'>
             <h2>COLLECTION PAGE</h2>
