@@ -9,7 +9,7 @@ import { selectCollection } from '../../redux/shop/shop.selectors';
 import './collection.styles.scss';
 
 const CollectionPage = ( { match }) => {
-    console.log(match);
+    console.log(match.params.collectionId);
     return (
         <div className='collection'>
             <h2>COLLECTION PAGE</h2>
